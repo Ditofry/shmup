@@ -1,0 +1,20 @@
+// @description mainProjectileAlarm
+canShoot = true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

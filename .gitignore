@@ -1,0 +1,50 @@
+
+# GameMaker Studio 2 specific ignores
+
+# Ignore compiled output files
+*.yyp.bak
+*.yyc
+*.local
+*.yydebug
+*.gmlproject.user
+*.yyproject.user
+*.gmx
+
+# Ignore Mac OS X hidden files
+.DS_Store
+
+# Ignore Windows thumbnail cache files
+Thumbs.db
+
+# Ignore Android build files
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Ignore iOS build files
+*.ipa
+*.xcarchive
+*.mobileprovision
+
+# Ignore macOS build files
+*.app
+*.dmg
+*.pkg
+
+# Ignore HTML5 build files
+*.html
+*.js
+*.css
+*.ico
+
+# Ignore temporary files
+*.tmp
+*.tmp.*
+
+# Ignore user-specific settings files
+settings.json
+
+# Ignore backups and auto-recovery files
+*.backup
+
