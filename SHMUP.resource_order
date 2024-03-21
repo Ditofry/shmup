@@ -18,7 +18,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"oMainCamera","order":3,"path":"objects/oMainCamera/oMainCamera.yy",},
+    {"name":"GameObject","order":4,"path":"objects/GameObject/GameObject.yy",},
     {"name":"oSmallEnemy1","order":2,"path":"objects/oSmallEnemy1/oSmallEnemy1.yy",},
+    {"name":"sDesertTileSprite","order":8,"path":"sprites/sDesertTileSprite/sDesertTileSprite.yy",},
+    {"name":"Sprite9","order":1,"path":"sprites/Sprite9/Sprite9.yy",},
     {"name":"oProjectileSmall","order":1,"path":"objects/oProjectileSmall/oProjectileSmall.yy",},
     {"name":"s_playerIdle","order":1,"path":"sprites/s_playerIdle/s_playerIdle.yy",},
     {"name":"s_enemySmall1Left","order":6,"path":"sprites/s_enemySmall1Left/s_enemySmall1Left.yy",},

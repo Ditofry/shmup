@@ -1,3 +1,6 @@
+// Player determines starting point
+randomise();
+
 // General
 image_speed = 0
 

@@ -9,6 +9,8 @@ var cameraRight = cameraWidth;
 var cameraTop = camera_get_view_y(mainCamera);
 var cameraBottom = cameraTop + cameraHeight;
 
+// Plane always moves with camera when "neutral"
+
 if (pressedLeft) {
   x = clamp(x - flySpeed, 0, cameraRight);
 	sprite_index = s_playerLeft;
@@ -32,6 +34,8 @@ if (pressedUp) {
 if (pressedDown) {
 	y = clamp(y + flySpeed, cameraTop, cameraBottom);
 }
+
+y = clamp(y - 1, cameraTop, cameraBottom);
 
 // We need to "push" for the y val of the plane... once the cam is
 // moving we can test and that's when we'll add it
